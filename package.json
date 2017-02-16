@@ -1,0 +1,47 @@
+{
+  "name": "gulp-w3c-html-validation",
+  "version": "0.0.1",
+  "description": "W3C html validation gulp plugin. Validate all files in a directory automatically.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=5.0.0",
+    "npm": ">=3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aakash-Goel/gulp-w3c-html-validation.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "html",
+    "report",
+    "validate",
+    "validation",
+    "w3c"
+  ],
+  "author": "Aakash Goel <se.aakashgoel@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aakash-Goel/gulp-w3c-html-validation/issues"
+  },
+  "homepage": "https://github.com/Aakash-Goel/gulp-w3c-html-validation",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean:report": "rimraf w3cErrors"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "lodash": "^4.17.4",
+    "rimraf": "^2.5.4"
+  },
+  "dependencies": {
+    "checkstyle-formatter": "^1.0.0",
+    "colors": "^1.1.2",
+    "handlebars": "^4.0.6",
+    "mkdirp": "^0.5.1",
+    "request": "^2.79.0",
+    "through2": "^2.0.3",
+    "w3cjs": "^0.3.0"
+  }
+}
